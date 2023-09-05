@@ -181,6 +181,7 @@
 }
 .funny-videos{
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 .funny-videos-heading{
     text-align: center;
@@ -245,13 +246,36 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.play-offline{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 120px;
+}
+.play-offline-info{
+    padding-top: 18rem;
+    text-align: right;
+}
+.play-instantly{
+    color: #F948B2;
+}
+.big-image{
+    width: 80%;
+    margin-top: 120px;
+    margin-left: 6rem;
+}
+.positon-img{
+    position: relative;
+    bottom: 4.3rem;
+    width: 40%;
+}
 
 
 
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .info-nav,.gamer-container,.card-container {
+    .info-nav,.gamer-container,.card-container,.play-offline{
         flex-direction: column;
     }
     .banner{
@@ -282,5 +306,14 @@
   .card-1,.card-2,.card-3,.card-4{
     width: 100%;
   }
-
+  .play-offline-info{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .big-image,.positon-img{
+    width: 70%;
+  }
+  .big-image{
+    margin-top: 5px;
+  }
 }
