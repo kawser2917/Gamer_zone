@@ -179,13 +179,79 @@
     font-size: 1.5rem;
 
 }
+.funny-videos{
+    margin-top: 120px;
+}
+.funny-videos-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.funny-videos-heading span{
+    color: #F948B2;
+}
+.funny-videos-para{
+    text-align: center;
+}
+.card-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.card-info{
+    margin-top: 3rem;
+}
+.card-info .watch-now{
+    text-align: center;
+    padding-top: 50%;
+    display: none;
+}
+.card-para{
+    margin-top: 1.5rem;
+    color: #534C64;
+    font-weight: 500;
+}
+.card-info:hover{
+    display: block;
+}
+
+.card-1{
+    width: 250px;
+    height: 300px;
+    background-image: url("../images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-2{
+    width: 250px;
+    height: 300px;
+    background-image: url("../images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-3{
+    width: 250px;
+    height: 300px;
+    background-image: url("../images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-4{
+    width: 250px;
+    height: 300px;
+    background-image: url("../images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .info-nav,.gamer-container {
+    .info-nav,.gamer-container,.card-container {
         flex-direction: column;
     }
     .banner{
@@ -213,5 +279,8 @@
     .gamer-info{
         text-align: center;
     }
+  .card-1,.card-2,.card-3,.card-4{
+    width: 100%;
+  }
 
 }
