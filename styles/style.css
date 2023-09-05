@@ -362,24 +362,24 @@
 @keyframes ayra{
     0%{
         color: red;
-        font-size: 180px;
+        font-size: 9rem;
     }
     25%{
         color: blue;
-        font-size: 20px;
+        font-size: 1.3rem;
     }
     50%{
         color: #F948B2;
-        font-size: 180px;
+        font-size: 9rem;
     }
     100%{
         color: #4EC5F7;
-        font-size: 20px;
+        font-size: 1.3rem;
     }
 }
 .ayra{
     animation: ayra 5s infinite;
-    padding-bottom: 20px;
+    padding-bottom: 200px;
 }
 
 
