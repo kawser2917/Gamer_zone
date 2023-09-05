@@ -359,6 +359,28 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+@keyframes ayra{
+    0%{
+        color: red;
+        font-size: 180px;
+    }
+    25%{
+        color: blue;
+        font-size: 20px;
+    }
+    50%{
+        color: #F948B2;
+        font-size: 180px;
+    }
+    100%{
+        color: #4EC5F7;
+        font-size: 20px;
+    }
+}
+.ayra{
+    animation: ayra 5s infinite;
+    padding-bottom: 20px;
+}
 
 
 
