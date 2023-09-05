@@ -128,6 +128,7 @@
 .banner-info button {
     margin-top: 2rem;
 }
+
 .secondary-btn {
     padding: 1rem 1.3rem;
     border-radius: 3rem;
@@ -140,134 +141,182 @@
     margin-left: 1.5rem;
 }
 
-.banner img{
+.banner img {
     width: 60%;
 }
+
 /* Gamer section design */
-.gamer{
+.gamer {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
-.gamer-container{
+
+.gamer-container {
     display: flex;
     gap: 3.5rem;
     width: 90%;
     margin: 0 auto;
 }
-.gamer-container img{
+
+.gamer-container img {
     width: 60%;
     margin-top: 2.9rem;
 }
-.gamer-info{
+
+.gamer-info {
     padding-top: 4.5rem;
     text-align: right;
 }
-.gamer-title{
+
+.gamer-title {
     color: #F948B2;
     font-size: 3rem;
 }
-.gamer-para{
+
+.gamer-para {
     margin-top: 10px;
     line-height: 1.5rem;
 }
-.gamer-info button{
+
+.gamer-info button {
     margin-top: 1.95rem;
-    margin-bottom:1.5rem;
+    margin-bottom: 1.5rem;
 }
-.purpose-quote{
-    color:#534C64;
+
+.purpose-quote {
+    color: #534C64;
     font-weight: 700;
     font-size: 1.5rem;
 
 }
-.funny-videos{
+
+.funny-videos {
     margin-top: 120px;
     margin-bottom: 120px;
 }
-.funny-videos-heading{
+
+.funny-videos-heading {
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
 }
-.funny-videos-heading span{
+
+.funny-videos-heading span {
     color: #F948B2;
 }
-.funny-videos-para{
+
+.funny-videos-para {
     text-align: center;
 }
-.card-container{
+
+.card-container {
     width: 80%;
     margin: 0 auto;
     display: flex;
     gap: 20px;
 }
-.card-info{
+
+.card-info {
     margin-top: 3rem;
 }
-.card-info .watch-now{
+
+.card-info .watch-now {
     text-align: center;
     padding-top: 50%;
     display: none;
 }
-.card-para{
+
+.card-para {
     margin-top: 1.5rem;
     color: #534C64;
     font-weight: 500;
 }
-.card-info:hover{
+
+.card-info:hover {
     display: block;
 }
 
-.card-1{
+.card-1 {
     width: 250px;
     height: 300px;
     background-image: url("../images/Rectangle\ 4.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-2{
+
+.card-2 {
     width: 250px;
     height: 300px;
     background-image: url("../images/Rectangle\ 5.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-3{
+
+.card-3 {
     width: 250px;
     height: 300px;
     background-image: url("../images/Rectangle\ 6.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-4{
+
+.card-4 {
     width: 250px;
     height: 300px;
     background-image: url("../images/Rectangle\ 7.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.play-offline{
+
+.play-offline {
     width: 80%;
     margin: 0 auto;
     display: flex;
     gap: 120px;
 }
-.play-offline-info{
+
+.play-offline-info {
     padding-top: 18rem;
     text-align: right;
 }
-.play-instantly{
+
+.play-instantly {
     color: #F948B2;
 }
-.big-image{
+
+.big-image {
     width: 80%;
     margin-top: 120px;
     margin-left: 6rem;
 }
-.positon-img{
+
+.positon-img {
     position: relative;
     bottom: 4.3rem;
     width: 40%;
+}
+
+.differnt-games {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.small-card {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: none;
+    width: 200px;
+    background: none;
+}
+.small-card:hover {
+    color: #0B0223;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #FFF;
+    border: 1px solid #F948B2;
 }
 
 
@@ -275,45 +324,70 @@
 @media screen and (max-width:576px) {
 
     .nav-container,
-    .info-nav,.gamer-container,.card-container,.play-offline{
+    .info-nav,
+    .gamer-container,
+    .card-container,
+    .play-offline {
         flex-direction: column;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         width: 80%;
         margin: 0 auto;
     }
-    .banner img{
+
+    .banner img {
         width: 100%;
     }
-    .banner-info{
+
+    .banner-info {
         padding: 20px;
     }
-    .secondary-btn{
+
+    .secondary-btn {
         margin-left: 10px;
     }
 
     .info-nav {
         padding-top: 15px;
     }
-    .gamer-container img{
+
+    .gamer-container img {
         width: 90%;
         margin: 0 auto;
     }
-    .gamer-info{
+
+    .gamer-info {
         text-align: center;
     }
-  .card-1,.card-2,.card-3,.card-4{
-    width: 100%;
-  }
-  .play-offline-info{
-    text-align: center;
-    padding-top: 10px;
-  }
-  .big-image,.positon-img{
-    width: 70%;
-  }
-  .big-image{
-    margin-top: 5px;
-  }
+
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        width: 100%;
+    }
+
+    .play-offline-info {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .big-image,
+    .positon-img {
+        width: 70%;
+    }
+
+    .big-image {
+        margin-top: 5px;
+    }
+    .small-card{
+        width: 100%;
+    }
+    .differnt-games{
+        width: 100%;
+ 
+        grid-template-columns: repeat(3,1fr);
+    }
 }
